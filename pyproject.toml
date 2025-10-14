@@ -4,12 +4,13 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "embedding-flow"
-version = "0.1.4"
+version = "0.1.5"
 description = "Pipeline to transform text chunks into embeddings and load to Qdrant"
 readme = "README.md"
 authors = [{name = "facuvega"}]
 requires-python = ">=3.10"
 dependencies = [
+    "torch==2.8.0",
     "sentence-transformers",
     "transformers",
     "pandas",
