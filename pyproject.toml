@@ -4,8 +4,9 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "embedding-flow"
-version = "0.1.0"
+version = "0.1.1"
 description = "Pipeline to transform text chunks into embeddings and load to Qdrant"
+readme = "README.md"
 authors = [{name = "facuvega"}]
 requires-python = ">=3.10"
 dependencies = [
