@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "embedding-flow"
-version = "0.1.7"
+version = "0.1.8"
 description = "Pipeline to transform text chunks into embeddings and load to Qdrant"
 readme = "README.md"
 authors = [{name = "facuvega"}]
@@ -17,10 +17,7 @@ dependencies = [
     "pyarrow",
     "qdrant-client>=1.7.0",
     "python-dotenv",
-],
-dependency_links=[
-    "https://download.pytorch.org/whl/cpu"
-],
+]
 classifiers = [
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.10",
