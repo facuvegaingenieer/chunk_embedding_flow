@@ -5,7 +5,11 @@ Biblioteca para transformar chunks de texto en embeddings de 768 dimensiones y c
 ## Instalación
 
 ```bash
+# Instalación básica (instala torch según tu sistema)
 pip install embedding-flow
+
+# O instalar con torch CPU (recomendado si no tenés GPU)
+pip install embedding-flow torch --index-url https://download.pytorch.org/whl/cpu
 ```
 
 ## Uso
