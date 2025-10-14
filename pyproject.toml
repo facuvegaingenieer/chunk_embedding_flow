@@ -10,13 +10,13 @@ readme = "README.md"
 authors = [{name = "facuvega"}]
 requires-python = ">=3.10"
 dependencies = [
-    "torch==2.8.0",
-    "sentence-transformers",
-    "transformers",
+    "torch",
+    "sentence-transformers>=2.2.0",
+    "transformers>=4.30.0",
     "pandas",
     "pyarrow",
     "qdrant-client>=1.7.0",
-    "python-dotenv",
+    "python-dotenv"
 ]
 classifiers = [
     "Programming Language :: Python :: 3",
